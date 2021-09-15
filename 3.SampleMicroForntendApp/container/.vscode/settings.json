@@ -1,0 +1,19 @@
+{
+  "editor.autoIndent": "full",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  // "prettier.arrowParens": "always",
+  "prettier.singleQuote": true,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 120,
+  "prettier.bracketSpacing": true,
+  "prettier.trailingComma": "none",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "scssFormatter.singleQuote": true
+}
