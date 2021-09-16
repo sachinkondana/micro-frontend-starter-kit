@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbooking=self.webpackChunkbooking||[]).push([[128],{128:(n,e,t)=>{t.r(e),t.d(e,{mount:()=>l});var o=t(271),r=t.n(o),u=t(650),c=t.n(u);t(334);const i=function(n){return n.history,r().createElement("div",null,"Booking React App")};var l=function(n){c().render(r().createElement(i,null),n)}}}]);
