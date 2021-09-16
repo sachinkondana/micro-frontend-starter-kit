@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Tabs, Tab } from '@material-ui/core';
 
@@ -11,6 +11,12 @@ var headerStyles = {
 
 export default ({ pathname = window.location.pathname }) => {
 	const [ currentTab, setCurrentTab ] = useState(pathname.split('/')[2]);
+
+	useEffect(() => {
+		console.log(1111, pathname);
+
+		setCurrentTab(pathname.split('/')[2] || 'bus');
+	}, [pathname]);
 
 	const handleChange = (event, newValue) => {
 		setCurrentTab(newValue);
