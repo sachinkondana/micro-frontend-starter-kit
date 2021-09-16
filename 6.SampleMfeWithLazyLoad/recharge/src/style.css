@@ -1,0 +1,11 @@
+.rc-container {
+    padding: 1.5rem 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.app-img {
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+}
